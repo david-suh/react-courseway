@@ -1,0 +1,97 @@
+.mainScreen {
+  height: 100vh;
+  min-height: 700px;
+  background-image: url("./mycourseway.jpg");
+  background-size: cover;
+  position: relative;
+
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 58px 0 70px;
+    margin-right: 245px;
+
+    .logo {
+      font-family: 'Lato', sans-serif;
+      font-size: 52px;
+      font-weight: 300;
+      color: #fff;
+      line-height: 78%;
+      margin-left: 215px;
+      margin-right: 75px;
+    }
+    
+    .menu {
+      display: flex;
+      width: 745px;
+      justify-content: space-between;
+      .link {
+        padding: 4px;
+        font-size: 25px;
+        width: max-content;
+        color: #fff;
+        font-weight: 300;
+      }
+      .current {
+        position: relative;
+      
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 4px;
+            width: calc(100% - 8px);
+            height: 1px;
+            background-color: #fff;
+        }
+      }
+    }
+  
+    .burger {
+      display: none;
+
+      &.active {
+        
+        & span {
+          display: none;
+        }
+        &::before {
+          transform: rotate(45deg);
+          top: 9px;
+        }
+        &::after {
+          transform: rotate(-45deg);
+          bottom: 9px;
+        }
+      }
+    } 
+  }
+
+  .contentIn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    width: max-content;
+  }
+  .smaller {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 35px;
+  }
+  .form {
+    position: absolute;
+    bottom: 60px;
+  }
+  
+}
+
