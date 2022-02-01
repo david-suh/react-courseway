@@ -4,18 +4,18 @@ import styles from './Footer.module.scss';
 
 function Footer(props) {
   return (
-    <footer class="footer">
-      <p class="copyrights creator footer__creator">Made with love by <span class="copyrights footer__creator copyrights--red">Alex Kuzmenko</span></p>
-      <p class="copyrights origin footer__origin">Inspired by <span class="copyrights footer__origin copyrights--red">PROMETHEUS</span></p>
-      <div class="social footer__social">
-        <a href="#" class="social__facebook social__icon footer__facebook footer__icon"></a>
-        <a href="#" class="social__twitter social__icon footer__twitter footer__icon"></a>
-        <a href="#" class="social__google social__icon footer__google footer__icon"></a>
+    <footer className={main.footer}>
+      <p className={`${styles.copyrights} ${styles.creator} ${main.creator}`}>Made with love by <span className={`${styles.copyrights} ${main.creator} ${styles.copyrightsBlue}`}>Alex Kuzmenko</span></p>
+      <p className={`${styles.copyrights} ${styles.origin} ${main.origin}`}>Inspired by <span className={`${styles.copyrights} ${main.origin} ${styles.copyrightsRed}`}>PROMETHEUS</span></p>
+      <div className={`${styles.social} ${main.social}`}>
+        <a href="#" className={`${styles.facebook} ${styles.icon} ${main.facebook} ${main.icon}`} />
+        <a href="#" className={`${styles.twitter} ${styles.icon} ${main.twitter} ${main.icon}`} />
+        <a href="#" className={`${styles.google} ${styles.icon} ${main.google} ${main.icon}`} />
       </div>
-      <div class="social footer__social">
-        <a href="#" class="social__facebook social__icon footer__facebook footer__icon footer__icon--red"></a>
-        <a href="#" class="social__twitter social__icon footer__twitter footer__icon footer__icon--red"></a>
-        <a href="#" class="social__google social__icon footer__google footer__icon footer__icon--red"></a>
+      <div className={`${styles.social} ${main.social}`}>
+        <a href="#" className={`${styles.facebook} ${styles.icon} ${main.facebook} ${main.icon} ${main.iconRed}` }  />
+        <a href="#" className={`${styles.twitter} ${styles.icon} ${main.twitter} ${main.icon} ${main.iconRed}`} />
+        <a href="#" className={`${styles.google} ${styles.icon} ${main.google} ${main.icon} ${main.iconRed}`} />
       </div>
     </footer>
   );

@@ -1,0 +1,17 @@
+.social {
+  width: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.copyrights {
+  font-size: 25px;
+  line-height: 46px;
+
+  &Blue {
+    color: #232A63;
+  }
+  &Red {
+    color: #ba271f;
+  }
+}

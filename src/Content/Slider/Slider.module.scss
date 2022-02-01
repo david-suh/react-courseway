@@ -1,0 +1,68 @@
+.slider {
+  display: flex;
+  overflow: hidden;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+  }
+  .img {
+    height: 255px;
+    width: 100%;
+    background-image: url(./img/cambridge.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .cambridge {
+    background-image: url(./img/cambridge.jpg);
+  }
+  .harvard {
+    background-image: url(./img/harvard.jpg);
+  }
+  .mit {
+    background-image: url(./img/mit.jpg);
+  }
+  .ucla {
+    background-image: url(./img/ucla.jpg);
+  }
+  .text {
+    font-size: 25px;
+    line-height: 42px;
+  }
+}
+
+.slick {
+  &-list {
+    width: 100%;
+    overflow: hidden;
+    margin-right: -30px;
+  }
+  &-track {
+    display: flex;
+  }
+  &-arrow {
+    min-width: 45px;
+    height: 45px;
+    margin:105px 0 0 0;
+    border: none;
+    background-color: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: inherit;
+    font-size: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-prev {
+    background-image: url(./img/prev-arrow.png);
+  }
+  &-next {
+    background-image: url(./img/next-arrow.png);
+    margin-left: 30px;
+  }
+}

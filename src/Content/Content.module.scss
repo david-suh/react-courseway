@@ -38,3 +38,191 @@
     margin-bottom: 35px;
   }
 }
+.courses {
+  padding: 35px 0 45px;
+  background-color: #f0f0f0;
+  text-align: center;
+
+  .text {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: -20px;
+  }
+  .box {
+    padding: 10px 25px 20px 20px;
+    min-height: 275px;
+    width: 540px;
+    display: flex;
+    background-color: #e8e8e8;
+    margin-bottom: 20px;
+  }
+  .leftSide {
+    padding-right:30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    font-size: 25px;
+    max-width: 220px;
+    margin: 0 auto 12px;
+    white-space: break-spaces;
+  }
+  .desc {
+    font-size: 17.5px;
+    text-align: start;
+    padding: 0 5px 0 0;
+    line-height: 32px;
+    height: 95px;
+    overflow: hidden;
+    position: relative;
+  }
+  .more {
+    font-size: 17.5px;
+    line-height: 32px;
+    text-align: start;
+    color: #fa3a5e;
+    margin-bottom: 30px;
+  }
+  .signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    justify-self: end;
+    padding: 7px 9px;
+    font-size: 10px;
+    background-color: #ba271f;
+    color: #fff;
+    margin-top: auto;
+  }
+  .rightSide {
+    height: 225px;
+    margin-top: auto;
+  }
+}
+.partners {
+  padding: 45px 150px;
+}
+.docs {
+  display: flex;
+  justify-content: space-between;
+
+  .img {
+    background-image: url(./img/education.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    min-height: 400px;
+  }
+  .content {
+    padding: 35px 245px 90px 100px;
+    width: 50%;
+    background-color: #a99473;
+    color: #fff;
+  }
+  .title {
+    width: auto;
+    margin-left: 11px;
+    font-size: 35px;
+    font-weight: 300;
+  }
+  .text {
+    margin: 18px 0 42px 0;
+    max-width: 365px;
+    line-height: 29px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+  }
+  .button {
+    padding: 17px 0;
+  }
+  .link {
+    padding: 15px 68px;
+    border: 1px solid #fff;
+    background-color: #ba271f;
+    font-size: 22px;
+  }
+}
+.devs {
+  padding: 23px 0 55px;
+
+  .title {
+    margin-bottom: 38px;
+  }
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -15px;
+  }
+  .box {
+    width: 255px;
+    margin-right: 15px;
+    text-align: center;
+  }
+  .img {
+    max-width: 255px;
+    width: 100%;
+    height: 255px;
+    background-size: cover;
+    background-position: center;
+  }
+  .daniel {
+    background-image: url(./img/daniel.jpg);
+  }
+  .nick {
+    background-image: url(./img/nick.jpg);
+  }  
+  .william {
+    background-image: url(./img/william.jpg);
+  }
+  .sarah {
+    background-image: url(./img/sarah.jpg);
+  }
+  .name {
+    margin: 42px 0 15px;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+  }
+  .text {
+    max-width: 200px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 14.5px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+}
+.signup {
+  padding: 23px 0 60px;
+  text-align: center;
+  background-color: #b4a184;
+  color: #fff;
+
+  .title {
+    font-size: 60px;
+  }
+  .text {
+    font-size: 25px;
+  }
+  .form {
+    width: 540px;
+    margin: 22px auto 0;
+  }
+  .input {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .button {
+    padding: 10px 40px 15px;
+    margin: 5px auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+  }
+}
